@@ -1,0 +1,274 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Playfair Display', serif;
+	font-weight: 400;
+	font-size: 14px;
+	color: #626262;
+}
+
+.wrapper {
+	width: 80%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.wrapper2 {
+	width: 70%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+/*header start*/
+header {
+	padding: 50px 0;
+}
+
+
+.logo {
+	width: 15%;
+	float: left;
+}
+
+.logo img {
+	width: 100%;
+}
+
+.menu {
+	width: 70%;
+	float: right;
+}
+
+.menu ul {
+	margin: 0;
+	padding: 0;
+	float: right;
+}
+.menu ul li {
+	float: left;
+    list-style: none;
+    margin-right: 90px;
+}
+
+.menu ul li:last-child {
+	margin-right: 0;
+}
+
+.menu ul li a {
+	padding: 10px;
+    color: #626262;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: .3s;
+    border-radius: 10px;
+    line-height: 3;
+}
+
+.menu ul li a:hover {
+	color: #D9511E;
+}
+
+.menu ul li:last-child a {
+	padding-right: 0;
+}
+
+
+/*header end*/
+
+
+/*banner area start*/
+
+.banner_bg img {
+	width: 100%;
+}
+
+/*banner area end*/
+
+/*perfect area start*/
+.perfect-area {
+	padding: 80px 0;
+}
+
+.perfect-content {}
+.perfect-content p:first-child {
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+.perfect-content h1 {
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 500;
+	font-size: 30px;
+	margin-bottom: 20px;
+	color: #626262;
+}
+
+.perfect-content p:nth-child(odd) {
+	margin-bottom: 30px;
+	line-height: 1.8;
+	color: #626262;
+	word-spacing: 2px;
+}
+
+.perfect-content p:last-child {
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+/*perfect area end*/
+
+/*lifestyle area start*/
+.lifestyle {
+	padding: 50px 0;
+}
+
+.single-content {
+	width: 47%;
+	float: left;
+	margin-right: 56px;
+	margin-bottom: 20px;
+}
+
+.single-content:nth-child(even) {
+	margin-right: 0;
+}
+
+.single-content img {
+	width: 100%;
+	margin-bottom: 20px;
+}
+.single-content p{
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+.single-content h1 {
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 500;
+	font-size: 30px;
+	margin-bottom: 20px;
+	color: #626262;
+}
+.single-content p:last-child {
+	text-transform: none;
+	color: #626262;
+	line-height: 1.8;
+}
+
+
+
+/*lifestyle area end*/
+
+/*newsletter start*/
+.newsletter {
+	background-color: #f0f0f0;
+	padding: 50px 0;
+	text-align: center;
+}
+
+.title h1 {
+	color: #333333;
+	font-size: 30px;
+}
+
+.email {
+	position: relative;
+	top: 0;
+	right: 0;
+	margin-top: 60px;
+}
+.email input {
+	border: 0;
+	border-bottom: 2px solid #333333;
+	width: 400px;
+	padding: 10px 10px 10px 5px;
+	outline-style: none;
+	background-color: #f0f0f0;
+	font-size: 18px;
+}
+
+.email input::placeholder {
+  color: #626262;
+  font-size: 16px;
+}
+
+.email img {
+	width: 30px;
+    height: 20px;
+    position: absolute;
+    top: 10px;
+    right: 330px;
+    cursor: pointer;
+}
+
+/*newsletter end*/
+
+
+/*load more start*/
+.load-more {
+	padding: 50px 0;
+	text-align: center;
+	overflow: hidden;
+}
+
+.more-btn button{
+	padding: 15px 30px;
+	font-size: 20px;
+	background-color: #fff;
+	color: #626262;
+	transition: 0.3s;
+	font-weight: 500;
+	border: 2px solid #626262;
+}
+
+.more-btn button:hover {
+	background-color: #E6602E;
+	color: #fff;
+	border: 2px solid #fff;
+	border-radius: 5px;
+}
+/*load more end*/
+
+/*footer start*/
+footer {
+	background-color: #f0f0f0;
+	padding: 30px 0;
+}
+
+.privacy {
+	float: left;
+	width: 30%;
+}
+
+.privacy p {
+	color: #000;
+}
+
+.follow {
+	float: right;
+	width: 30%;
+}
+
+.follow ul {
+	float: right;
+}
+.follow ul li {
+	list-style: none;
+	float: left;
+	margin-right: 20px;
+
+}
+
+.follow ul li:last-child {
+	margin-right: 0;
+}
+.follow ul li p {
+	color: #000;
+}
+.follow ul li i {
+	
+}
+
+/*footer end*/
+
+
