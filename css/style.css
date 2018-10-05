@@ -206,7 +206,7 @@ header {
 
 /*load more start*/
 .load-more {
-	padding: 100px 0;
+	padding: 100px 0 200px;
 	text-align: center;
 	overflow: hidden;
 }
