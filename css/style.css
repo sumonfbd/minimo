@@ -178,7 +178,8 @@ header {
 	right: 0;
 	margin-top: 60px;
 }
-.email input {
+
+.email form input {
 	border: 0;
 	border-bottom: 2px solid #333333;
 	width: 400px;
@@ -188,7 +189,7 @@ header {
 	font-size: 18px;
 }
 
-.email input::placeholder {
+.email form input::placeholder {
   color: #626262;
   font-size: 16px;
 }
