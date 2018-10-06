@@ -172,14 +172,15 @@ header {
 	font-size: 30px;
 }
 
-.email {
+
+form {
 	position: relative;
 	top: 0;
 	right: 0;
 	margin-top: 60px;
 }
 
-.email form input {
+form input {
 	border: 0;
 	border-bottom: 2px solid #333333;
 	width: 400px;
@@ -189,12 +190,12 @@ header {
 	font-size: 18px;
 }
 
-.email form input::placeholder {
+form input::placeholder {
   color: #626262;
   font-size: 16px;
 }
 
-.email img {
+form img {
 	width: 30px;
     height: 20px;
     position: absolute;
