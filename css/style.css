@@ -69,7 +69,7 @@ header {
 }
 
 .menu ul li a:hover {
-	color: #D9511E;
+	color: #38383A;
 }
 
 .menu ul li:last-child a {
@@ -186,7 +186,7 @@ form input {
 	border: 0;
 	border-bottom: 2px solid #333333;
 	width: 100%;
-	padding: 10px 10px 10px 5px;
+	line-height: 2;
 	outline-style: none;
 	background-color: #f0f0f0;
 	font-size: 18px;
@@ -197,12 +197,12 @@ form input::placeholder {
   font-size: 16px;
 }
 
-form img {
+form button img {
 	width: 30px;
     height: 20px;
     position: absolute;
     top: 10px;
-    right: -16px;
+    right: 0;
     cursor: pointer;
 }
 
@@ -227,7 +227,7 @@ form img {
 }
 
 .more-btn button:hover {
-	background-color: #E6602E;
+	background-color: #38383A;
 	color: #fff;
 	border: 2px solid #fff;
 	border-radius: 5px;
